@@ -1,0 +1,210 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e2d9d9;
+    background-color: #0e0101;
+}
+
+
+
+
+a {
+    color: #e4e0e0;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+
+    background-color: #000000fb;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.logo img {
+    max-height: 80px;
+
+}
+
+This CSS will position the logo in the header and limit its height to 80 pixels. You can adjust the max-height value to match the height of your logo image. header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+#hero {
+    background-image: url('hero-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ece5e5;
+}
+
+#hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+#hero .btn {
+    background-color: #0e0404;
+    border: none;
+    color: #eee8e8;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+#hero .btn:hover {
+    background-color: #080101;
+    color: #fff;
+}
+
+/* About section styles */
+#about {
+    background-color: #0f0303;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Gift boxes section styles */
+#gift-boxes {
+    background-color: #0a0202;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#gift-boxes h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.gift-box {
+    background-color: #0f0101;
+    box-shadow: 0 0 10px rgba(238, 230, 230, 0.1);
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.gift-box img {
+    max-width: 100%;
+}
+
+.gift-box h3 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.gift-box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.gift-box .btn {
+    background-color: #0a0202;
+    border: none;
+    color: #ebdbdb;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.gift-box .btn:hover {
+    background-color: #60c71b;
+
+    color: # header nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #hero h2 {
+        font-size: 36px;
+    }
+
+    #hero p {
+        font-size: 18px;
+    }
+
+    .gift-box {
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    .gift-box img {
+        max-width: 80%;
+    }
+
+    .testimonial {
+        margin: 20px auto;
+        max-width: 80%;
+    }
+
+    .testimonial p {
+        font-size: 16px;
+    }
+
+    .testimonial cite {
+        font-size: 14px;
+    }
