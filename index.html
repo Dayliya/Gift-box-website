@@ -1,72 +1,223 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>Chuti Craft.lk</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuti Craft - Premium Gift Boxes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-	<header>
-		<h1>Chuti Craft</h1>
-		<img src="logo.jpg">
-		<img src="home.jpg">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.jpg" alt="Chuti Craft Logo">
+                <span>Chuti Craft</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#products" class="nav-link">Gift Boxes</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Gift Boxes</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section id="hero">
-			<h2>Beautifully curated gift boxes for every occasion</h2>
-			<p>Find the perfect gift for your loved ones with our handpicked selection of gift boxes for every occasion.
-				From birthdays to weddings to anniversaries, we've got you covered.</p>
-			<a href="#" class="btn">Shop Now</a>
-		</section>
-		<section id="about">
-			<h2>About Us</h2>
-			<p>We are a team of gift experts who are passionate about creating beautiful and meaningful gifts for every
-				occasion. We believe that giving a gift is an expression of love, and we strive to make every gift
-				special.</p>
-		</section>
-		<section id="gift-boxes">
-			<h2>Our Gift Boxes</h2>
-			<div class="gift-box">
-				<img src="A.avif" alt="Gift Box 1">
-				<h3>Gift Box 1</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis justo ut libero consequat,
-					ac mattis massa feugiat.</p>
-				<a href="#" class="btn">Learn More</a>
-			</div>
-			<div class="gift-box">
-				<img src="12.jpg" alt="Gift Box 2">
-				<h3>Gift Box 2</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis justo ut libero consequat,
-					ac mattis massa feugiat.</p>
-				<a href="#" class="btn">Learn More</a>
-			</div>
-			<div class="gift-box">
-				<img src="123.jpg" alt="Gift Box 3">
-				<h3>Gift Box 3</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis justo ut libero consequat,
-					ac mattis massa feugiat.</p>
-				<a href="#" class="btn">Learn More</a>
-			</div>
-		</section>
-		<section id="contact">
-			<h2>Contact Us</h2>
-			<form action="#" method="post">
-				<label for="name">Name</label>
-				<input type="text" id="name" name="name">
-				<label for="email">Email</label>
-				<input type="email" id="email" name="email">
-				<label for="message">Message</label>
-				<textarea id="message" name="message"></textarea>
-				<input type="submit
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Beautifully Curated Gift Boxes</h1>
+            <p class="hero-subtitle">Creating unforgettable moments with handpicked gifts for every special occasion</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Explore Collection</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="home.jpg" alt="Beautiful Gift Boxes">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Chuti Craft</h2>
+                <p>Crafting moments of joy through thoughtful gifting</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>At Chuti Craft, we believe that every gift tells a story. Our passionate team of gift experts carefully curates each box to create meaningful experiences that celebrate life's precious moments.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span>Handpicked with Love</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-gift"></i>
+                            <span>Premium Quality</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>Fast Delivery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>1000+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Unique Gift Boxes</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5★</h3>
+                        <p>Average Rating</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Premium Collection</h2>
+                <p>Discover our carefully curated gift boxes for every occasion</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="A.avif" alt="Luxury Gift Box">
+                        <div class="product-overlay">
+                            <a href="#" class="btn btn-white">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Luxury Collection</h3>
+                        <p>Premium selection of artisanal treats and elegant accessories for sophisticated gifting.</p>
+                        <div class="product-price">$89.99</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="12.jpg" alt="Celebration Gift Box">
+                        <div class="product-overlay">
+                            <a href="#" class="btn btn-white">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Celebration Box</h3>
+                        <p>Perfect for birthdays, anniversaries, and special milestones with delightful surprises.</p>
+                        <div class="product-price">$59.99</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="123.jpg" alt="Seasonal Gift Box">
+                        <div class="product-overlay">
+                            <a href="#" class="btn btn-white">View Details</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Seasonal Delight</h3>
+                        <p>Thoughtfully curated seasonal items that capture the essence of each time of year.</p>
+                        <div class="product-price">$45.99</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>We'd love to help you create the perfect gift experience</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Gift Street, Colombo, Sri Lanka</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+94 11 234 5678</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hello@chuticraft.lk</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Chuti Craft</h3>
+                    <p>Creating beautiful moments through thoughtful gifting since 2020.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chuti Craft. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
